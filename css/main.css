@@ -1,0 +1,92 @@
+/* 
+    Document   : main
+    Created on : 12.02.2013, 15:41:29
+    Author     : Altvirus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin: 0;
+}
+#wrapper{
+    background: #ccc;
+    position: relative;
+    height: 600px;
+    width: 980px;
+    left:50%;
+    margin-left: -490px;
+}
+#header{
+    position: relative;
+    height: 85px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    white-space: nowrap;
+    
+}
+/*LEFT SIDE*/
+#left-side{
+    position: relative;
+    display: inline-block;
+    width:830px;
+    height: 100%;
+    
+}
+#logo{
+    position: relative;
+    display: block;
+    width:200px;
+    height: 50px;
+    background: #5abaca;
+}
+/*--> MAIN_MENU*/
+#main-menu{
+    position: relative;
+    display: block;
+    height: 35px;
+    width:100%;
+    background: #5acaba;
+}
+#menu-container{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+}
+#menu-container li{
+    float: left;
+    margin: 5px;
+    padding:2px;
+}
+.menu-item{
+    text-decoration: none;
+    font-family: Helvetica;
+    color:#000;
+    margin-right: 5px;
+}
+.menu-item.link:hover{
+  color:#fff;  
+}
+
+.linked{
+    color:#c6c6c6;
+    text-decoration: #c6c6c6 dotted;
+    
+}
+/*end of -->MAIN_MENU*/
+/*end of LEFT SIDE*/
+
+/*RIGHT-SIDE*/
+#right-side{
+    position: relative;
+    display: inline-block;
+    width:150px;
+    height: 85px;
+    background: #5abaca;
+    margin-left: -5px;
+}
+
