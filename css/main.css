@@ -139,6 +139,7 @@ input{
     white-space: normal;
     border-left: 1px dashed #000;
     border-right: 1px dashed #000;
+    margin-left: -1px;
 }
 /*END_OF_RIGHT_SIDE*/
 /*END_CENTER*/
