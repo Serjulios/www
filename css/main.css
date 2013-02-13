@@ -9,13 +9,16 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    margin: 0;
+}
 input{
     margin: 0;
 }
 #wrapper{
-    background: #ccc;
+    background: #fff;
     position: relative;
-    height: 900px;
+    height: 100%;
     width: 980px;
     left:50%;
     margin-left: -490px;
@@ -24,7 +27,7 @@ input{
     position: relative;
     height: 85px;
     width: 100%;
-    border-bottom: 1px solid #000;
+    border: 1px dashed #000;
     white-space: nowrap;
     
 }
@@ -32,6 +35,7 @@ input{
 #left-side{
     position: relative;
     display: inline-block;
+    float: left;
     width:830px;
     height: 100%;
     
@@ -49,7 +53,7 @@ input{
     display: block;
     height: 35px;
     width:100%;
-    background: #5acaba;
+    background: #fff;
 }
 #menu-container{
     position: relative;
@@ -65,19 +69,25 @@ input{
 .menu-item{
     text-decoration: none;
     font-family: Helvetica;
-    color:#000;
+    color:#6DA3BD;
     margin-right: 5px;
 }
 .menu-item.link:hover{
-  color:#fff;  
+  color:#000;  
 }
 
 .linked{
-    color:#fff;
-    border-bottom: 1px dashed #fff; 
+    color: #000;
+    border-bottom: 1px dashed #000; 
     
 }
 /*end of -->MAIN_MENU*/
+.search{
+    float:right;
+}
+#search-button{
+  margin: 0 5px;  
+}
 /*end of LEFT SIDE*/
 
 /*RIGHT-SIDE*/
@@ -86,10 +96,70 @@ input{
     display: inline-block;
     width:150px;
     height: 85px;
-    background: #5abaca;
-    margin-left: -5px;
+    background: #fff;
 }
 /*END_OF_HEADER*/
 
+/*START_CENTER*/
+#center{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background:#fff;
+    white-space: nowrap;
+    border-right: 1px dashed #000;
+    border-left: 1px dashed #000;
+}
+/*MAIN_CONTENT_START*/
+#main{
+    position: relative;
+    display: inline-block;
+    width: 830px;
+    float: left;
+    height: auto;
+    max-height: 100%;
+    padding: 15px 0;
+    white-space: normal;
+    background: #fff;
+    
+}
+
+/*END_OF_MAIN_CONTENT*/
+
+/*RIGHT_SIDE_START*/
+#right{
+    position: relative;
+    display: inline-block;
+    width:150px;
+    height: auto;
+    max-height: 100%;
+    padding: 15px 0;
+    background: #fff;
+    white-space: normal;
+    border-left: 1px dashed #000;
+    border-right: 1px dashed #000;
+}
+/*END_OF_RIGHT_SIDE*/
+/*END_CENTER*/
+
+/*FOOTER_START*/
+#footer{
+    position: relative;
+    display: block;
+    width:100%;
+    padding: 15px 0;
+    background: #fff;
+    font-family: Helvetica;
+    border: 1px dashed #000;
+    
+}
+
+#footer span{
+    position: relative;
+    left:50%;  
+    margin-left: -55px;
+}
+/*END_OF_FOOTER*/
 
 
